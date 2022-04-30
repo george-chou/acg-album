@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>二次元相册</title>
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/hidden.css" type="text/css" />
+	<link rel="stylesheet" href="css/perfundo.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/album.js"></script>
+	<script type="text/javascript" src="js/snow.js"></script>
+	<script type="text/javascript" src="js/typewriter.js"></script>
+	<script type="text/javascript" src="js/load.js"></script>
+</head>
+
+<body>
+
+	<div id="myContent"></div>
+	<div id="contentToWrite"></div>
+
+	<div id="container">
+		<ul id="myRoundabout"></ul>
+	</div>
+
+	<div id="perfundo-single2" class="perfundo__overlay fadeIn">
+		<figure class="perfundo__content perfundo__figure">
+			<div class="perfundo__image"></div>
+			<figcaption class="perfundo__figcaption">
+				<p class="perfundo__caption"></p>
+			</figcaption>
+		</figure>
+		<a href="#perfundo-none" class="perfundo__close perfundo__control">Close</a>
+	</div>
+
+	<div id="player">
+		<audio id="music" preload="auto" loop></audio>
+		<a id="music_btn" href="javascript:playPause();"></a>
+	</div>
+
+	<div id="soundname">
+		<a target="_blank"></a>
+	</div>
+
+	<div id="thence"></div>
+	<div id="thenceThen"></div>
+
+</body>
+
+</html>

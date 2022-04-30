@@ -1,0 +1,261 @@
+/* Global properties ======================================================== */
+body {
+	background-position: top;
+	height: 620px;
+	background-image: url(../img/bg.jpg);
+	text-align: left;
+	background-repeat: no-repeat;
+}
+
+
+/* Global Structure ============================================================= */
+/* Header */
+#header {
+	position: absolute;
+	left: 0px;
+	top: 5px;
+	overflow: hidden;
+	height: 70px;
+	font-family: "华文行楷";
+	font-weight: 900;
+	font-size: 40px;
+	padding-bottom: 5px;
+	width: 100%;
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+
+#myContent {
+	position: absolute;
+	left: 70px;
+	top: 100px;
+	overflow: hidden;
+	text-shadow: 2px 3px 3px #000;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+	font-weight: 500;
+	font-size: 24px;
+	color: #fff;
+}
+
+#contentToWrite {
+	display: none;
+}
+
+#container {
+	visibility: hidden;
+	overflow: hidden;
+	position: absolute;
+	width: 560px;
+	height: 480px;
+	opacity: 1;
+}
+
+#container img {
+	width: 100%;
+	height: 100%;
+}
+
+#container .date {
+
+	text-decoration: none;
+
+	position: absolute;
+	overflow: hidden;
+	margin: 0 auto;
+	bottom: 0px;
+	padding-top: 4%;
+
+	display: block;
+	height: 7.5%;
+	width: 100%;
+	background: #333;
+	opacity: 0.8;
+	text-align: center;
+	font-family: "黑体", "Times New Roman", Times, serif;
+	font-size: 14px;
+
+	color: #FFF;
+
+
+}
+
+#sound {
+	position: absolute;
+	left: 80px;
+	top: 560px;
+	opacity: 0.7;
+
+}
+
+
+#soundname {
+	overflow: hidden;
+	position: absolute;
+	left: 850px;
+	top: 560px;
+	width: 500px;
+
+	font-size: 28px;
+	font-family: Arial, Helvetica, sans-serif, "楷体";
+	font-style: normal;
+}
+
+#soundname a {
+
+	-webkit-transition: color .4s ease;
+	-moz-transition: color .4s ease;
+	-o-transition: color .4s ease;
+	transition: color .4s ease;
+
+	text-decoration: none;
+	color: #6a5e74;
+
+	text-shadow: 2px 3px 3px #000;
+}
+
+#soundname a:hover {
+	text-decoration: none;
+	color: #abbde5;
+	font-family: Arial, Helvetica, sans-serif, "楷体";
+	font-style: normal;
+	text-shadow: 2px 3px 3px #000;
+}
+
+#title {
+	position: absolute;
+	left: 28%;
+	top: 0px;
+	padding: 10px;
+	overflow: hidden;
+	text-shadow: 2px 3px 3px #222;
+	color: #CCCCCC;
+}
+
+#footer {
+	position: absolute;
+	left: 32%;
+	top: 91%;
+	overflow: hidden;
+	text-shadow: 2px 3px 3px #222;
+	font-family: 'Microsoft YaHei';
+	font-style: italic;
+	font-size: 20px;
+	color: #CCCCCC;
+}
+
+#music_btn {
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(../img/mute.png) no-repeat;
+	cursor: pointer;
+}
+
+#player {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+}
+
+#time {
+	position: absolute;
+	left: 750px;
+	top: 400px;
+	overflow: hidden;
+}
+
+#show {
+	color: #CCCCCC;
+	text-shadow: 2px 3px 3px #222;
+	font-family: 'Microsoft YaHei';
+	font-style: italic;
+	font-size: 20px;
+}
+
+
+#bg {
+	overflow: hidden;
+}
+
+.roundabout-holder {
+	width: 350px;
+	height: 650px;
+	margin: 0 auto;
+}
+
+/*distence from top*/
+
+.roundabout-moveable-item {
+
+	width: 200px;
+	height: 300px;
+	cursor: pointer;
+	border: 3px solid #ccc;
+	border: 3px solid rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.roundabout-moveable-item img {
+	z-index: -1;
+	width: 100%;
+}
+
+.roundabout-in-focus {
+	border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+.spanstyle {
+	color: #CCFF99;
+	font-family: courier;
+	text-shadow: 2px 2px 1px #222;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 20px;
+	position: absolute;
+	top: -50px;
+	overflow: hidden;
+}
+
+#thenceThen {
+	top: 100px;
+	text-align: center;
+	font-family: "方正舒体";
+	text-shadow: 2px 3px 3px #222;
+	font-size: 32px;
+	color: #ff8bdd;
+}
+
+#thence {
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	font-size: 24px;
+}
+
+#thence a {
+	text-decoration: none;
+	font-family: "黑体";
+	text-shadow: 1px 2px 2px #333;
+	color: #fff;
+}
+
+#thence a:hover {
+	text-decoration: none;
+	font-family: "黑体";
+	text-shadow: 2px 3px 3px #222;
+	color: #fff;
+}
