@@ -20,7 +20,7 @@ git clone https://github.com/你的github用户名/acg-album.git
 
 在 ./acg-album 目录下可以看到有两个相同结构的配置文件 config-37.json 和 config-rem.json，
 
-分别对应_三月七主题_和_雷姆主题_，这里以 config-37.json 为例
+分别对应*三月七主题*和*雷姆主题*，这里以 config-37.json 为例：
 
 ```
 {
