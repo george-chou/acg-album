@@ -42,6 +42,16 @@ git clone https://github.com/你的github用户名/acg-album.git
 
 可按上述的说明个性化修改。
 
+### 切换主题
+在 ./acg-album/js 目录下打开 load.js ，修改第一行代码：
+```
+let cfg = "./config-37.json";
+```
+目前是*三月七主题*，若要切换成*雷姆主题*，则将其改为：
+```
+let cfg = "./config-rem.json";
+```
+
 ### 本地展示
 在 XAMPP 上打开 Apache，进入 <http://localhost/acg-album>
 <br>
