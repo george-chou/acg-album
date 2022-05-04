@@ -1,3 +1,6 @@
+let cfg = "./cfg37.json";
+// let cfg = "./config.json";
+
 function ShowCer(src, txt) {
     $('.perfundo__image').css("background-image", "url(" + src + ")");
     $('.perfundo__caption').text(txt);
@@ -6,8 +9,8 @@ function ShowCer(src, txt) {
 function load() {
 
     $.ajaxSettings.async = false;
-    $.getJSON("./config.json", function (result) {
-
+    $.getJSON(cfg, function (result) {
+        $('body').css("background-image", "url(" + result.wallpaper + ")");
         $('#contentToWrite').append(result.content);
 
         let sound = $('#soundname').find('a');
@@ -60,7 +63,7 @@ function move() {
     let num = 0;
     let period = 105;
     // Get the mobile div, the X coordinate of the entire active area
-    let right = 60;
+    let right = 0;
     // Get the mobile div, the Y coordinate of the entire active area
     let top = 140;
     // Move a DIV with a timer
@@ -81,7 +84,7 @@ function move() {
 
 function thenceThen() {
 
-    $.getJSON("./config.json", function (result) {
+    $.getJSON(cfg, function (result) {
         let followDate = new Date(result.date);
         let totalSecs = (new Date() - followDate) / 1000;
         let days = Math.floor(totalSecs / 3600 / 24);

@@ -2,7 +2,7 @@
 body {
 	background-position: top;
 	height: 620px;
-	background-image: url(../img/bg.jpg);
+	background-size: 100%;
 	text-align: left;
 	background-repeat: no-repeat;
 }
@@ -29,7 +29,7 @@ body {
 #myContent {
 	position: absolute;
 	left: 70px;
-	top: 100px;
+	top: 200px;
 	overflow: hidden;
 	text-shadow: 2px 3px 3px #000;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
@@ -57,15 +57,12 @@ body {
 }
 
 #container .date {
-
 	text-decoration: none;
-
 	position: absolute;
 	overflow: hidden;
 	margin: 0 auto;
 	bottom: 0px;
 	padding-top: 4%;
-
 	display: block;
 	height: 7.5%;
 	width: 100%;
@@ -74,10 +71,7 @@ body {
 	text-align: center;
 	font-family: "黑体", "Times New Roman", Times, serif;
 	font-size: 14px;
-
 	color: #FFF;
-
-
 }
 
 #sound {
@@ -85,32 +79,27 @@ body {
 	left: 80px;
 	top: 560px;
 	opacity: 0.7;
-
 }
 
 
 #soundname {
 	overflow: hidden;
 	position: absolute;
-	left: 850px;
-	top: 560px;
+	right: 0px;
+	bottom: 60px;
 	width: 500px;
-
 	font-size: 28px;
 	font-family: Arial, Helvetica, sans-serif, "楷体";
 	font-style: normal;
 }
 
 #soundname a {
-
 	-webkit-transition: color .4s ease;
 	-moz-transition: color .4s ease;
 	-o-transition: color .4s ease;
 	transition: color .4s ease;
-
 	text-decoration: none;
 	color: #6a5e74;
-
 	text-shadow: 2px 3px 3px #000;
 }
 
@@ -156,7 +145,7 @@ body {
 
 #player {
 	position: fixed;
-	bottom: 10px;
+	bottom: 160px;
 	left: 10px;
 }
 
