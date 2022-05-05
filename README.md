@@ -3,12 +3,12 @@
 ## 本地调试
 
 ### 安装 Git
-下载： <https://git-scm.com/downloads>
+<a href="https://git-scm.com/downloads" target="_blank">下载</a>
 
 ### 安装 XAMPP
-教程： <https://www.bilibili.com/video/BV1e7411u7qY>
+<a href="https://www.bilibili.com/video/BV1e7411u7qY" target="_blank">教程</a>
 
-下载： <https://www.apachefriends.org/download.html>
+<a href="https://www.apachefriends.org/download.html" target="_blank">下载</a>
 
 ### 本地部署
 首先注册一个 GitHub 账号并 fork 一份本仓库到你自己的账号
@@ -53,7 +53,7 @@ let cfg = "./config-rem.json";
 ```
 
 ### 本地展示
-在 XAMPP 上打开 Apache，进入 <http://localhost/acg-album>
+在 XAMPP 上打开 Apache，进入 <a href="http://localhost/acg-album" target="_blank">localhost/acg-album</a>
 <br>
 建议使用本地展示调试完毕后再进行下一步
 
@@ -68,7 +68,7 @@ git commit -a
 git push
 ```
 
-再进入 vercel 官网： <https://vercel.com/login>
+再进入<a href="https://vercel.com/login" target="_blank">vercel 官网</a>
 
 使用你自己的 GitHub 账号授权登录，点击 `+ New Project`，
 
