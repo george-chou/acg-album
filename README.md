@@ -3,12 +3,14 @@
 ## 本地调试
 
 ### 安装 Git
-<a href="https://git-scm.com/downloads" target="_blank">下载</a>
+教程：<a href="https://www.bilibili.com/video/BV1BE411g7SV" target="_blank">bilibili.com/video/BV1BE411g7SV</a>
+
+下载：<a href="https://git-scm.com/downloads" target="_blank">git-scm.com/downloads</a>
 
 ### 安装 XAMPP
-<a href="https://www.bilibili.com/video/BV1e7411u7qY" target="_blank">教程</a>
+教程：<a href="https://www.bilibili.com/video/BV1e7411u7qY" target="_blank">bilibili.com/video/BV1e7411u7qY</a>
 
-<a href="https://www.apachefriends.org/download.html" target="_blank">下载</a>
+下载：<a href="https://www.apachefriends.org/download.html" target="_blank">apachefriends.org/download.html</a>
 
 ### 本地部署
 首先注册一个 GitHub 账号并 fork 一份本仓库到你自己的账号
