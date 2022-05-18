@@ -17,7 +17,7 @@ Install XAMPP: <a href="https://www.apachefriends.org/download.html" target="_bl
 git clone https://github.com/%Your_GitHub_Account%/acg-album.git
 ```
 
-In the `./acg-album` directory, you can see that there are two configuration files with the same structure, `config-37.json` and `config-rem.json` corresponding to `Theme March 7` and `Theme Rem` respectively, here is an example of `config-37.json`:
+3. In the `./acg-album` directory, you can see that there are two configuration files with the same structure, `config-37.json` and `config-rem.json` corresponding to `Theme March 7` and `Theme Rem` respectively, here is an example of `config-37.json`:
 
 ```
 {
@@ -44,7 +44,7 @@ Open `load.js` in the `./acg-album/js` directory and modify the first line of co
 ```
 let cfg = "./config-37.json";
 ```
-Currently `Theme March 7`, if you want to switch to `Theme Rem`, change it to:
+Currently is `Theme March 7`, if you want to switch to `Theme Rem`, change it to:
 ```
 let cfg = "./config-rem.json";
 ```
@@ -67,7 +67,7 @@ git push
 
 2. Enter <a href="https://vercel.com/login" target="_blank">Vercel official website</a>
 
-3. Log in with your own GitHub account authorization, click `+ New Project`,
+3. Log in with your own GitHub account authorization, click `+ New Project`
 
 4. Type the keyword acg-album in the search box of `Import Git Repository` to find the repository that was previously forked
 
