@@ -17,7 +17,7 @@ Install XAMPP: <a href="https://www.apachefriends.org/download.html" target="_bl
 git clone https://github.com/%Your_GitHub_Account%/acg-album.git
 ```
 
-In the _./acg-album_ directory, you can see that there are two configuration files with the same structure, _config-37.json_ and _config-rem.json_ corresponding to *March 7 theme* and *Rem theme* respectively, here is an example of _config-37.json_:
+In the `./acg-album` directory, you can see that there are two configuration files with the same structure, `config-37.json` and `config-rem.json` corresponding to `Theme March 7` and `Theme Rem` respectively, here is an example of `config-37.json`:
 
 ```
 {
@@ -40,11 +40,11 @@ In the _./acg-album_ directory, you can see that there are two configuration fil
 It can be customized as described above.
 
 ### Switch themes
-Open load.js in the ./acg-album/js directory and modify the first line of code:
+Open `load.js` in the `./acg-album/js` directory and modify the first line of code:
 ```
 let cfg = "./config-37.json";
 ```
-Currently *March 7 theme*, if you want to switch to *rem theme*, change it to:
+Currently `Theme March 7`, if you want to switch to `Theme Rem`, change it to:
 ```
 let cfg = "./config-rem.json";
 ```
@@ -67,15 +67,15 @@ git push
 
 2. Enter <a href="https://vercel.com/login" target="_blank">Vercel official website</a>
 
-3. Log in with your own GitHub account authorization, click *+ New Project*,
+3. Log in with your own GitHub account authorization, click `+ New Project`,
 
-4. Type the keyword acg-album in the search box of *Import Git Repository* to find the repository that was previously forked
+4. Type the keyword acg-album in the search box of `Import Git Repository` to find the repository that was previously forked
 
-5. Click *Import* to modify the *PROJECT NAME* under *Configure Project*
+5. Click `Import` to modify the `PROJECT NAME` under `Configure Project`
 
-6. Make sure that *PROJECT NAME* does not conflict with others and click *Deploy*
+6. Make sure that `PROJECT NAME` does not conflict with others and click `Deploy`
 
-7. After the deployment is complete, you can visit *https://%PROJECT_NAME%.vercel.app* in the WAN to view the webpage. (where *%PROJECT_NAME%* is the PROJECT NAME just modified under *Configure Project*)
+7. After the deployment is complete, you can visit `https://%PROJECT_NAME%.vercel.app` in the WAN to view the webpage. (where `%PROJECT_NAME%` is the `PROJECT NAME` just modified under `Configure Project`)
 
 ## Future work
 
