@@ -1,5 +1,7 @@
 # 二次元主题相册使用教程
 
+[![license](https://img.shields.io/github/license/george-chou/acg-album.svg)](https://github.com/george-chou/acg-album/blob/master/LICENSE)
+
 ## 本地调试
 
 ### 安装 Git
