@@ -55,10 +55,10 @@ Open Apache on XAMPP, go to <a href="http://localhost/acg-album" target="_blank"
 It is recommended to use the local display to debug before proceeding to the next step.
 
 ## Deploy to Vercel
-1. Sync the modified local code to your GitHub account:
 
-After the command line enters ./acg-album
+1. Sync the modified local code to your GitHub account:
 ```
+cd acg-album
 git add .
 git commit -a
 :wq!
@@ -67,15 +67,16 @@ git push
 
 2. Enter <a href="https://vercel.com/login" target="_blank">Vercel official website</a>
 
-3. Log in with your own GitHub account authorization, click `+ New Project`,
+3. Log in with your own GitHub account authorization, click *+ New Project*,
 
-4. Type the keyword acg-album in the search box of Import Git Repository to find the repository that was previously forked
+4. Type the keyword acg-album in the search box of *Import Git Repository* to find the repository that was previously forked
 
-5. Click `Import` to modify the PROJECT NAME under Configure Project
+5. Click *Import* to modify the *PROJECT NAME* under *Configure Project*
 
-6. Make sure that PROJECT NAME does not conflict with others and click `Deploy`
+6. Make sure that *PROJECT NAME* does not conflict with others and click *Deploy*
 
-7. After the deployment is complete, you can visit `https://%PROJECT NAME%.vercel.app` in the WAN to view the webpage. (where %PROJECT NAME% is the PROJECT NAME just modified under Configure Project)
+7. After the deployment is complete, you can visit *https://%PROJECT_NAME%.vercel.app* in the WAN to view the webpage. (where *%PROJECT_NAME%* is the PROJECT NAME just modified under *Configure Project*)
 
 ## Future work
+
 The style of this album has not been debugged on mobile clients, so it does not display properly on the mobile terminal. This problem will be fixed in the future.
