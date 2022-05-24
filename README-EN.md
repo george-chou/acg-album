@@ -2,13 +2,19 @@
 
 [![license](https://img.shields.io/github/license/george-chou/acg-album.svg)](https://github.com/george-chou/acg-album/blob/master/LICENSE)
 
-## Local debug
+## Important links
+|   Name    | URL                                        |
+| :-------: | :----------------------------------------- |
+|    Git    | <https://git-scm.com/downloads>            |
+|  GitHub   | <https://github.com/>                      |
+| acg-album | <https://github.com/george-chou/acg-album> |
+|  Vercel   | <https://vercel.com/>                      |
+
+## Git
 
 Install Git: <a href="https://git-scm.com/downloads" target="_blank">git-scm.com/downloads</a>
 
-Install XAMPP: <a href="https://www.apachefriends.org/download.html" target="_blank">apachefriends.org/download.html</a>
-
-### Local deployment
+## Custom
 
 1. Register a GitHub account and fork a copy of this repository to your own account
 
@@ -39,7 +45,7 @@ git clone https://github.com/%Your_GitHub_Account%/acg-album.git
 
 It can be customized as described above.
 
-### Switch themes
+## Switch themes
 Open `load.js` in the `./acg-album/js` directory and modify the first line of code:
 ```
 let cfg = "./config-37.json";
@@ -49,18 +55,17 @@ Currently is `Theme March 7`, if you want to switch to `Theme Rem`, change it to
 let cfg = "./config-rem.json";
 ```
 
-### Local display
-Open Apache on XAMPP, go to <a href="http://localhost/acg-album" target="_blank">localhost/acg-album</a>
-<br>
-It is recommended to use the local display to debug before proceeding to the next step.
-
 ## Deploy to Vercel
+
+Similar video tutorials are available at <https://www.bilibili.com/video/BV1wp4y1W7aH?p=2>
 
 1. Sync the modified local code to your GitHub account:
 ```
 cd acg-album
 git add .
 git commit -a
+i
+input commit description
 :wq!
 git push
 ```
